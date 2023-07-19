@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    padding: 0;
+     /* Prevent scrollbars from appearing due to video overflow */
+}
+
+#videoContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#videoBackground {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.content {
+    padding: 20px;
+    padding-top:100px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.nav-item{
+    padding-left:50px;
+}
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color: aliceblue;
+    text-shadow:2px 2px 5px white;
+}
+.nav-link:focus{
+    color: aqua;
+}
+
+#myVideo {
+    padding:0;
+    min-width: 100%;
+    height:850px;
+    filter:opacity(90%);
+}
+#myvideo h1{
+    color:white;
+}
+.header{
+    position:relative;
+}
+.body{
+    position:absolute;
+}
+h1{
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media(max-width:480px){
+    .nav-item{
+        padding-left:10px;
+    }
+    p{
+        font-size: smaller;
+    }
+    .top3img{
+        display:block;
+        margin: auto;
+        padding-top: 50px;
+        width:75%;
+    }
+
+}
